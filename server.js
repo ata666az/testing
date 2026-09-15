@@ -20,7 +20,7 @@ const BACKENDS = (
   (process.env.BACKENDS && process.env.BACKENDS.split(',').map((s) => s.trim()).filter(Boolean)) ||
   [
     'wsudprelay-production-7524.up.railway.app',
-    // 'backend-2.up.railway.app',
+    'wsudprelay.up.railway.app',
     // 'backend-3.up.railway.app',
     // 'backend-4.up.railway.app',
   ]
